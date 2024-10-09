@@ -4,7 +4,7 @@ import './Supplier.css'
 function Supplier() {
   return (
     <div>
-      supplier
+      <h1 className='item-heading'>Supplier Details</h1>
     </div>
   )
 }

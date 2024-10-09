@@ -13,6 +13,7 @@ function Checkbox() {
   };
 
   return (
+    <div>
     <div className='checkbox-main'>
       <label className="custom-checkbox">
         <input className='input-checkbox'
@@ -34,11 +35,15 @@ function Checkbox() {
         Supplier
       </label>
 
+
+      </div>
+
       <div className="components">
         {activeComponent === 'Item' && <Item />}
         {activeComponent === 'Supplier' && <Supplier />}
       </div>
-    </div>
+      </div>
+    
   );
 }
 
